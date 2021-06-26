@@ -23,7 +23,7 @@
   <!--our CSS-->
   <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body onload="loadIniitialCardData()">
 
   <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -105,35 +105,14 @@
     </div>
    </div>
    </div>   
-</section>
+  </section>
    <!--cards-->
    <section>
        <div class="row task_container">
-           <div class="col-md-6 col-lg-4">
-            <div class="card text-center d flex justify-content-end gap-2">
-                <div class="card-header">
-                    <button type="button" class="btn btn-outline-success">
-                        <i class="fas fa-pencil-alt"></i>
-                        
-                    </button>
-                    <button type="button" class="btn btn-outline-danger">
-                        <i class="fas fa-trash-alt"></i></button>
-                </div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZlf5lc5tX-0gY-y94pGS0mQdL-D0lCH2OQ&usqp=CAU" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                <div class="card-footer ">
-                    <button type="button" class="btn btn-outline-primary float-end">Open task</button>
-
-                
-                </div>
-              </div>
-           </div>
+           
        </div>
    </section>
+  </div>
       <!-- JavaScript Bundle with Popper -->
 <script
  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
